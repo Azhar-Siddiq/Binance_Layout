@@ -1,0 +1,223 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.butTon{
+    background-color: #FCD535;
+    border: none;
+    outline: none;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+.tOp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.arrange{
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.aliGn{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+.foNt{
+    font-size: 14px;
+}
+.backGround{
+    background-color: rgba(252, 215, 52, 0.185);
+    height: 50px;
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.marGin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.butTon2{
+    border: none;
+    outline: none;
+    background-color: #FCD535;
+    border-radius: 5px;
+    padding: 0px 5px;
+}
+.coLor{
+    color: #FCD535;
+}
+/* .reeDeem{
+    display: flex;
+} */
+.btn-cOnatiner{
+    width: 80%;
+    height: 45%;
+}
+.signUp-Btn{
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color: #FCD535;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.line-Para{
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid lightgray; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+ }
+ .btn-cOnatiner-1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+.appLe{
+    width: 50%;
+}
+.gooGle{
+    width: 50%;
+}
+ .apple-Btn{
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+ }
+ .google-Btn{
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+ }
+ .roundCorner{
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+ }
+ .otherBorder{
+    border-radius: 20px;
+ }
+ .btnStarted{
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    background-color: #FCD535;
+    border-radius: 5px;
+    padding: 10px 30px;
+ }
+ .back-Ground{
+    background-color: rgba(252, 215, 52, 0.185);
+    border-radius: 30px;
+ }
+ .btcBtn{
+    border: none;
+    outline: none;
+    background-color: #FCD535;
+    padding: 10px 30px;
+ }
+ .contAiner{
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+ }
+ .contAiner-item{
+    background-color: #eee;
+    border-radius: 20px;
+    width: 18%;
+    height: 200px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+ }
+ .itEms{
+    width: 100%;
+ }
+ .itEms img{
+    display: block;
+    margin: 0 auto;
+ }
+ .threeContainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .itemS-3{
+    border-radius: 30px;
+    background-color: #eee;
+    width: 32%;
+    height: 500px;
+ }
+ .qrCode{
+    height: 100px;
+    background-color: #eee;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+ }
+ .scaNner{
+    width: 20%;
+ }
+ .iconContainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+ }
+ .iconContainer-item{
+    width: 33%;
+    height: 100px;
+    cursor: pointer;
+ }
+ .blog1{
+    width: 30%;
+ }
+ .blog2{
+    width: 70%;
+ }
+ .fontSize{
+    font-size: 12px;
+ }
+@media only screen and (max-width:768px){
+    .arrange{
+        display: none;
+    }
+    .aliGn{
+        justify-content: flex-end;
+    }.backGround{
+        display: none;
+    }
+    .tOp{
+        display: none;
+    }
+    .btn-cOnatiner{
+        width: 100%;
+    }
+    .contAiner-item{
+        width: 47%;
+    }
+    .itemS-3{
+        width: 100%;
+    }
+}
